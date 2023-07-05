@@ -28,6 +28,7 @@ async def main():
     dp: Dispatcher = Dispatcher()
 
     dp.startup.register(set_main_menu)
+
     dp.include_router(user_handlers.router)
     dp.include_router(other_handlers.router)
 

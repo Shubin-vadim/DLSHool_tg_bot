@@ -6,13 +6,8 @@ from torch.autograd import Variable
 from torchvision.utils import save_image
 
 
-def style_transfer(image_path, output_path, checkpoint_model) -> None:
+def style_transfer(image_path, output_path, transformer) -> None:
     transform = test_transform()
-
-    # Define model and load model checkpoint
-    transformer = TransformerNet()
-    transformer.load_state_dict(torch.load(checkpoint_model))
-    transformer.eval()
 
     # Prepare input
     image_tensor = Variable(transform(Image.open(image_path)))

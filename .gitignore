@@ -130,3 +130,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# test files
+app_fsm.py
+FSM.py
