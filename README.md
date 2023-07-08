@@ -7,13 +7,16 @@
    
 # <a name="description">Desctiption project</a>
 
+This project is a telegram bot that transfers the image style. There is a picture of content at the input, and a stylized image at the output. [The Fast Neural Style algorithm](https://clck.ru/34sQ3q) was used for the development
+The idea is to train the network to transfer a certain style to many different images.
+
 # <a name="install">Installation</a>
 
+### Git clone
 ```
 git clone https://github.com/Shubin-vadim/Background-Segmentation.git
 ```
-
-# <a>Install dependencies</a>
+### Installing dependencies
 
 ```
 pip3 install -r requirements.txt
@@ -22,7 +25,7 @@ pip3 install -r requirements.txt
 # <a name="run">Run application</a>
 
 ```
-python main.py
+python app.py
 ```
 
 # <a name="examples">Examples</a>
