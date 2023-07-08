@@ -2,7 +2,7 @@
  
 1. [Descriprion bot](#description)
 2. [Installation](#install)
-3. [Run application](#run)
+3. [Run bot](#run)
 4. [Examples](#examples)
    
 # <a name="description">Desctiption project</a>
@@ -22,7 +22,7 @@ git clone https://github.com/Shubin-vadim/Background-Segmentation.git
 pip3 install -r requirements.txt
 ```
 
-# <a name="run">Run application</a>
+# <a name="run">Run bot</a>
 
 ```
 python app.py
