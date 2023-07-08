@@ -1,4 +1,4 @@
-# Background-Segmentation
+# Telegram style transfer bot
  
 1. [Descriprion bot](#description)
 2. [Installation](#install)
