@@ -10,6 +10,13 @@
 This project is a telegram bot that transfers the image style. There is a picture of content at the input, and a stylized image at the output. [The Fast Neural Style algorithm](https://clck.ru/34sQ3q) was used for the development
 The idea is to train the network to transfer a certain style to many different images.
 
+List of available bot commands:
+- /start - Start of the bot
+- /help - list of available commands
+- /info - information about neural style transfer
+- /examples - examples of images created by this bot
+- /transfer_style - transferring the style of the original image
+
 # <a name="install">Installation</a>
 
 ### Git clone
